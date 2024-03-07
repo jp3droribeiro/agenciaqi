@@ -47,7 +47,21 @@
     
 }
 
+#sobre{
+    display: flex;
+    width: 30px;
+}
 
+
+/*PARTE DOS QUADRADO*/
+#servicos {
+    flex-direction: column; /* Permite que as divs sejam quebradas para a próxima linha */
+}
+
+#servicos > div {
+    width: 100%; /* Reduz a largura das divs para caber em telas menores */
+    margin-bottom: 20px; /* Adiciona espaçamento entre as divs */
+}
 
 
 /*___FOOTER________*/
